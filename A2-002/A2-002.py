@@ -1,7 +1,6 @@
 def main() :
     all_size = [0]
     all_xy = []
-
     for _ in range(int(input())) :
         xy = input().split()
         x_y = [int(xy[0]), int(xy[1])]
